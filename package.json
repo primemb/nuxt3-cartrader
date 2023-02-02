@@ -1,0 +1,22 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/image-edge": "^1.0.0-27907872.f4dd19d",
+    "nuxt": "^3.0.0"
+  },
+  "dependencies": {
+    "@nuxtjs/supabase": "^0.3.0",
+    "@nuxtjs/tailwindcss": "^6.2.0",
+    "@prisma/client": "^4.9.0",
+    "@vueuse/nuxt": "^9.11.1",
+    "prisma": "^4.9.0",
+    "zod": "^3.20.2"
+  }
+}
